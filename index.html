@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+   <div id="login" class="login-area">
+       <h1 class="text-center"> Welcome To Pioneer Bank</h1>
+       
+       <div class="submit-area">
+         <h3>Login</h3>
+         <input class="form-control" type="text" placeholder="Inter Your Name"/> <br/>
+         <input class="form-control" type="password" placeholder="Inter Your Password"> <br/>
+         <button id="btn1" class="btn btn-success btn-outline-primary ">Login</button>
+       </div>
+</div>
+        <!--transaction-start-->
+  <div id="transaction-area">
+    <div class="row">
+      <div class="col-md-4">
+     <div class="deposit status">
+          <h5>Deposit</h5>
+        <h2>&<span id="currentdeposit">00</span></h2>
+     </div>
+      </div>
+      <div class="col-md-4">
+       <div class="withdraw status">
+          <h5>Withdraw</h5>
+        <h2>&00</h2>
+       </div>
+        </div>
+        <div class="col-md-4">
+         <div class="balance status">
+           <h5>Balance</h5>
+          <h2>&<span id="balance1">100</span></h2>
+         </div>
+      </div>
+ </div>
+ 
+      <div class="row">
+        <div class="col-md-6">
+        <div class="submit-area2">
+           <h4 class="text-center">Deposite</h4>
+          <input id="depositamount" type="text" class="form-control">
+          <button id="btn2" class="btn btn-primary btn2">Deposite</button>
+        </div>
+        </div>
+        <div class="col-md-6"> 
+        <div class="submit-area2">
+            <h4 class="text-center">withdraw</h4>
+          <input type="text" class="form-control">
+          <button id="btn3" class="btn btn-primary btn2">withdraw</button>
+        </div>
+        </div>
+      </div>
+    
+     </div>
+  
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
